@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Wahou!</title>
+    <link rel= "stylesheet"  type= "text/css"  href=  "style.css"/>
+</head>
+<body>
+
+
+        <div id="wrapper">
+            <div id="hero">
+
+                 <div class="header">
+			        <h1 class="animated fadeIn"> Wahou! </H1>
+                     <div id="overlay">
+                         <div>
+                             <p>Such Wahou! <br/>
+                                Much Wahou!</p>
+
+                             <a href='#' onclick='overlay()'>Fermer</a>
+                         </div>
+                     </div>
+
+                         <img class="info animated fadeIn" src="images/info.png" alt="info" onclick="overlay()"/>
+
+                         <img id="mute" class="sound animated fadeIn" src="images/sound.png" alt="" onclick="changeImage()"/>
+                         <audio id="audio"   src="audio/forest.ogg" autoplay loop>
+
+
+                             <p>Si vous lisez cela votre navigateur ne peut lancer la piste audio    </p>
+                         </audio>
+
+                </div>
+             </div>
+        </div>
+
+        <script src="script.js"></script>
+
+</body>
+</html>

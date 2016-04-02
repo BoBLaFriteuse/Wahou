@@ -46,8 +46,8 @@ body{ margin:0 0;
 h1 {
     color: rgba(59, 20, 5, 0.65);
     animation-delay: 0.5s;
-    margin-top: 200px;
-    margin-bottom: 100px;
+    margin-top: 5%;
+    padding-bottom: 50px;
     font-family: quicksand, serif;
 	
    text-shadow: 0 0 5px rgba(0,0,0,0.5);

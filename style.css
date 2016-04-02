@@ -89,9 +89,10 @@ html, body {
     z-index: 1000;
 }
 #overlay div {
-    width:300px;
-    margin-top: 400px;
-    margin-left: 520px;
+    width: 20%;
+    position: static;
+    margin: auto;
+    margin-top: 10%;
     background-color: #fff;
     border:1px solid #000;
     padding:15px;

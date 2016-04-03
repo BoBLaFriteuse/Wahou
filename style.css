@@ -15,7 +15,7 @@ body{ margin:0 0;
 }
 .info {
     width: 4% ;
-    margin-right: 20px ;
+
     animation-delay: 0.5s;
     cursor: pointer;
 }
@@ -50,7 +50,7 @@ h1 {
     padding-bottom: 50px;
     font-family: quicksand, serif;
 	
-   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+   
 }
 
 
@@ -113,4 +113,15 @@ a:link, a:visited {
 
 a:hover, a:active {
     background-color: #66941c;
+}
+.rewind {
+    width: 4% ;
+    animation-delay: 0.5s;
+    cursor: pointer;
+}
+.forward {
+    width: 4% ;
+    margin-right: 20px ;
+    animation-delay: 0.5s;
+    cursor: pointer;
 }

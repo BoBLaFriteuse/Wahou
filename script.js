@@ -20,3 +20,10 @@ function overlay() {
     el = document.getElementById("overlay");
     el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
 }
+
+function fwdimage(){
+    document.getElementById('hero').style.backgroundImage = "url('images/forest3.jpg')";
+}
+function rwdimage(){
+    document.getElementById('hero').style.backgroundImage = "url('images/forest2.jpg')";
+}

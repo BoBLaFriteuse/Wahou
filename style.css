@@ -15,7 +15,7 @@ body{ margin:0 0;
 }
 .info {
     width: 4% ;
-
+    margin-right: 20px ;
     animation-delay: 0.5s;
     cursor: pointer;
 }
